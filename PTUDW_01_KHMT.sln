@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTUDW_01_KHMT", "PTUDW_01_KHMT\PTUDW_01_KHMT.csproj", "{D9700383-2ED9-4C33-86A5-3BC0E83FFEF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9700383-2ED9-4C33-86A5-3BC0E83FFEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9700383-2ED9-4C33-86A5-3BC0E83FFEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9700383-2ED9-4C33-86A5-3BC0E83FFEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9700383-2ED9-4C33-86A5-3BC0E83FFEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3A993DE-2D18-4A53-A044-2A5756AF26C3}
+	EndGlobalSection
+EndGlobal
