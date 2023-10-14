@@ -7,7 +7,9 @@
     <li class="drop-holder">
         <a href="/@item.Alias">
             @item.Title
-            <i class="fa fa-chevron-down"></i>
+            
+                <i class="fa fa-chevron-down"></i>
+            
         </a>
         @if (menuChild.Count() > 0)
         {
@@ -18,7 +20,6 @@
                         <a href="/@itemChild.Alias">@itemChild.Title</a>
                     </li>
                 }
-                
             </ul>
         }
     </li>
