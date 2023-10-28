@@ -23,6 +23,7 @@ namespace PTUDW_01_KHMT.Controllers
             if (id == null)
                 return NotFound();
             var blog = _context.TbBlogs.FirstOrDefault(i => i.BlogId == id && (bool)i.IsActive);
+            ViewBag.blogComment = _context.TbBlogComments.Where(m=>m.BlogId == id && (bool)m.IsActive).ToList();
             if (blog == null)
                 return NotFound();
             return View(blog);
